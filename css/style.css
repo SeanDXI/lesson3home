@@ -1,0 +1,17 @@
+/*селектор тега*/
+div{color:slateblue}
+span{color:limegreen}
+/*селектор класса*/
+.text{color:purple}
+.text-one{color:teal}
+/*селектор идентификатора*/
+#a{color:midnightblue}
+#b{color:orangered}
+#c{color:saddlebrown}
+/*уточнение*/
+div.text-one{color:orchid}
+h2 span{color:red}
+.text-one.text{color:rosybrown}
+.text-one .text{color:royalblue}
+/*селектор атрибутов*/
+[class*="_a"]{color:navy}
